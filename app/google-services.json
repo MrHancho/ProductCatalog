@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "549167445435",
-    "firebase_url": "https://productcatalogf18.firebaseio.com",
-    "project_id": "productcatalogf18",
-    "storage_bucket": "productcatalogf18.appspot.com"
+    "project_number": "364499753511",
+    "firebase_url": "https://lab5-productcatalog.firebaseio.com",
+    "project_id": "lab5-productcatalog",
+    "storage_bucket": "lab5-productcatalog.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:549167445435:android:aadfeba8c26d67fc",
+        "mobilesdk_app_id": "1:364499753511:android:eac27e3eda1ef2112dcc02",
         "android_client_info": {
           "package_name": "mgarzon.createbest.productcatalog"
         }
       },
       "oauth_client": [
         {
-          "client_id": "549167445435-bqkrnvemam2vlsbvo12db9e8f7o4kt2o.apps.googleusercontent.com",
+          "client_id": "364499753511-89slcqd3ppmcjed18vjunc2r2tnupd9t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "mgarzon.createbest.productcatalog",
-            "certificate_hash": "94a15cb9b346e4f7005039f06009b38c5c518158"
+            "certificate_hash": "b1a6b77f9719b4319dab2eacdb749bcde4421d5b"
           }
         },
         {
-          "client_id": "549167445435-oa6l951d32j9h3vqpa3vk2vd757in4ui.apps.googleusercontent.com",
+          "client_id": "364499753511-pe60fpkpqi3osavsknplea8o3cpns05c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdcbJw4tB9eb0o9w1IcuCP6Pap_nphWPc"
+          "current_key": "AIzaSyD4HD5w3KNBLV_BQ7NwIYfi8ZgIA7VUv-o"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "549167445435-oa6l951d32j9h3vqpa3vk2vd757in4ui.apps.googleusercontent.com",
+              "client_id": "364499753511-pe60fpkpqi3osavsknplea8o3cpns05c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

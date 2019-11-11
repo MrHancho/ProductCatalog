@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        databaseProducts = FirebaseDatabase.getInstance().getReference("products");
+        databaseProducts = FirebaseDatabase.getInstance().getReference("Products");
         editTextName = (EditText) findViewById(R.id.editTextName);
         editTextPrice = (EditText) findViewById(R.id.editTextPrice);
         listViewProducts = (ListView) findViewById(R.id.listViewProducts);
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateProduct(String id, String name, double price) {
         //getting the specified product reference
-        DatabaseReference dR = FirebaseDatabase.getInstance().getReference("products").child(id);
+        DatabaseReference dR = FirebaseDatabase.getInstance().getReference("Products").child(id);
         //updating product
         Product product = new Product(id, name, price);
         dR.setValue(product);
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean deleteProduct(String id) {
         //getting the specified product reference
-        DatabaseReference dR = FirebaseDatabase.getInstance().getReference("products").child(id);
+        DatabaseReference dR = FirebaseDatabase.getInstance().getReference("Products").child(id);
         //removing prodct
         dR.removeValue();
         Toast.makeText(getApplicationContext(), "Product Deleted", Toast.LENGTH_LONG).show();
